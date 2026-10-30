@@ -1,0 +1,26 @@
+{
+  "name": "meow-extension",
+  "displayName": "meow extension",
+  "description": "Показывает картинку и играет звук каждые 10 написанных строк кода.",
+  "version": "0.0.1",
+  "publisher": "student",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "meow",
+        "title": "meow: Показать картинку сейчас"
+      }
+    ]
+  }
+}
